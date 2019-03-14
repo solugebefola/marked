@@ -18,7 +18,8 @@
     "no-useless-escape": "off",
     "no-return-assign": "off",
     "one-var": "off",
-    "no-control-regex": "off"
+    "no-control-regex": "off",
+    "no-labels": ["error", { "allowLoop": true }]
   },
   "env": {
     "node": true,
